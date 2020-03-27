@@ -328,8 +328,7 @@
                             jaxb2-basics-runtime,
                             commons-lang3,
                             geospatial,
-                            security-core-impl,
-                            ddf.catalog.impl.filter
+                            security-core-impl
                         </Embed-Dependency>
                         <Embed-Transitive>true</Embed-Transitive>
                     </instructions>
