@@ -70,11 +70,6 @@
             <artifactId>catalog-core-commands</artifactId>
             <version>${ddf.version}</version>
         </dependency>
-        <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>javax.activation-api</artifactId>
-            <version>1.2.0</version>
-        </dependency>
     </dependencies>
     <build>
         <plugins>
@@ -88,6 +83,7 @@
                         <Karaf-Commands>*</Karaf-Commands>
                         <Export-Package />
                         <Embed-Dependency>
+                            !javax.activation,
                             catalog-core-api-impl,
                             platform-util,
                             gt-cql,

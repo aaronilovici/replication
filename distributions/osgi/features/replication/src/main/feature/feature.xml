@@ -24,7 +24,6 @@
             mvn:replication/replication-api-impl/${project.version}/json/injection
         </configfile>
         <feature>admin-query-all</feature>
-        <bundle>mvn:javax.activation/javax.activation-api/1.2.0</bundle>
         <bundle>mvn:replication/replication-api/${project.version}</bundle>
         <bundle>mvn:replication/replication-api-impl/${project.version}</bundle>
         <bundle>mvn:replication/replication-commands/${project.version}</bundle>
